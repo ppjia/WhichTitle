@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		710758201A5DFE7D00F6B64C /* WTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7107581F1A5DFE7D00F6B64C /* WTUtil.m */; };
+		710758241A5E049A00F6B64C /* WTGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710758221A5E049A00F6B64C /* WTGameViewController.m */; };
+		710758251A5E049A00F6B64C /* WTGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710758231A5E049A00F6B64C /* WTGameViewController.xib */; };
+		7107582D1A5E245D00F6B64C /* WTGameAnswerPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7107582C1A5E245D00F6B64C /* WTGameAnswerPage.m */; };
+		7107582F1A5E246E00F6B64C /* WTGameAnswerPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7107582E1A5E246E00F6B64C /* WTGameAnswerPage.xib */; };
+		710758321A5E3BB700F6B64C /* WTWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710758311A5E3BB700F6B64C /* WTWebViewController.m */; };
+		710758361A5E983900F6B64C /* WTGameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 710758341A5E983900F6B64C /* WTGameOverViewController.m */; };
+		710758371A5E983900F6B64C /* WTGameOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 710758351A5E983900F6B64C /* WTGameOverViewController.xib */; };
+		7107583E1A5EB32500F6B64C /* WTIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7107583D1A5EB32500F6B64C /* WTIndicatorView.m */; };
+		71C0AD451A5CF7BF006ABD1C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD441A5CF7BF006ABD1C /* main.m */; };
+		71C0AD481A5CF7BF006ABD1C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD471A5CF7BF006ABD1C /* AppDelegate.m */; };
+		71C0AD4B1A5CF7BF006ABD1C /* WTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD4A1A5CF7BF006ABD1C /* WTHomeViewController.m */; };
+		71C0AD4E1A5CF7BF006ABD1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AD4C1A5CF7BF006ABD1C /* Main.storyboard */; };
+		71C0AD501A5CF7BF006ABD1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AD4F1A5CF7BF006ABD1C /* Images.xcassets */; };
+		71C0AD531A5CF7BF006ABD1C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AD511A5CF7BF006ABD1C /* LaunchScreen.xib */; };
+		71C0AD5F1A5CF7BF006ABD1C /* Which_TitleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD5E1A5CF7BF006ABD1C /* Which_TitleTests.m */; };
+		71C0AD6B1A5CF8AB006ABD1C /* WTNewsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD6A1A5CF8AB006ABD1C /* WTNewsManager.m */; };
+		71C0AD6E1A5CF95D006ABD1C /* WTNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD6D1A5CF95D006ABD1C /* WTNewsItem.m */; };
+		71C0AD711A5CFFD8006ABD1C /* WTNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD701A5CFFD8006ABD1C /* WTNews.m */; };
+		71C0AD751A5D3817006ABD1C /* WTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD741A5D3817006ABD1C /* WTButton.m */; };
+		71C0AD791A5D47A3006ABD1C /* WTGameQuestionPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C0AD781A5D47A3006ABD1C /* WTGameQuestionPage.m */; };
+		71C0AD7B1A5D48DA006ABD1C /* WTGameQuestionPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71C0AD7A1A5D48DA006ABD1C /* WTGameQuestionPage.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71C0AD591A5CF7BF006ABD1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71C0AD371A5CF7BF006ABD1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71C0AD3E1A5CF7BF006ABD1C;
+			remoteInfo = "Which Title";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7107581E1A5DFE7D00F6B64C /* WTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTUtil.h; sourceTree = "<group>"; };
+		7107581F1A5DFE7D00F6B64C /* WTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTUtil.m; sourceTree = "<group>"; };
+		710758211A5E049A00F6B64C /* WTGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTGameViewController.h; sourceTree = "<group>"; };
+		710758221A5E049A00F6B64C /* WTGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTGameViewController.m; sourceTree = "<group>"; };
+		710758231A5E049A00F6B64C /* WTGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTGameViewController.xib; sourceTree = "<group>"; };
+		7107582B1A5E245D00F6B64C /* WTGameAnswerPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTGameAnswerPage.h; sourceTree = "<group>"; };
+		7107582C1A5E245D00F6B64C /* WTGameAnswerPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTGameAnswerPage.m; sourceTree = "<group>"; };
+		7107582E1A5E246E00F6B64C /* WTGameAnswerPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTGameAnswerPage.xib; sourceTree = "<group>"; };
+		710758301A5E3BB700F6B64C /* WTWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTWebViewController.h; sourceTree = "<group>"; };
+		710758311A5E3BB700F6B64C /* WTWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTWebViewController.m; sourceTree = "<group>"; };
+		710758331A5E983900F6B64C /* WTGameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTGameOverViewController.h; sourceTree = "<group>"; };
+		710758341A5E983900F6B64C /* WTGameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTGameOverViewController.m; sourceTree = "<group>"; };
+		710758351A5E983900F6B64C /* WTGameOverViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTGameOverViewController.xib; sourceTree = "<group>"; };
+		7107583C1A5EB32500F6B64C /* WTIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTIndicatorView.h; sourceTree = "<group>"; };
+		7107583D1A5EB32500F6B64C /* WTIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTIndicatorView.m; sourceTree = "<group>"; };
+		71C0AD3F1A5CF7BF006ABD1C /* Which Title.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Which Title.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C0AD431A5CF7BF006ABD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C0AD441A5CF7BF006ABD1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71C0AD461A5CF7BF006ABD1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71C0AD471A5CF7BF006ABD1C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71C0AD491A5CF7BF006ABD1C /* WTHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTHomeViewController.h; sourceTree = "<group>"; };
+		71C0AD4A1A5CF7BF006ABD1C /* WTHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTHomeViewController.m; sourceTree = "<group>"; };
+		71C0AD4D1A5CF7BF006ABD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71C0AD4F1A5CF7BF006ABD1C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71C0AD521A5CF7BF006ABD1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71C0AD581A5CF7BF006ABD1C /* Which TitleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Which TitleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71C0AD5D1A5CF7BF006ABD1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71C0AD5E1A5CF7BF006ABD1C /* Which_TitleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Which_TitleTests.m; sourceTree = "<group>"; };
+		71C0AD691A5CF8AB006ABD1C /* WTNewsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNewsManager.h; sourceTree = "<group>"; };
+		71C0AD6A1A5CF8AB006ABD1C /* WTNewsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNewsManager.m; sourceTree = "<group>"; };
+		71C0AD6C1A5CF95D006ABD1C /* WTNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNewsItem.h; sourceTree = "<group>"; };
+		71C0AD6D1A5CF95D006ABD1C /* WTNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNewsItem.m; sourceTree = "<group>"; };
+		71C0AD6F1A5CFFD8006ABD1C /* WTNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNews.h; sourceTree = "<group>"; };
+		71C0AD701A5CFFD8006ABD1C /* WTNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNews.m; sourceTree = "<group>"; };
+		71C0AD731A5D3817006ABD1C /* WTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTButton.h; sourceTree = "<group>"; };
+		71C0AD741A5D3817006ABD1C /* WTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTButton.m; sourceTree = "<group>"; };
+		71C0AD771A5D47A3006ABD1C /* WTGameQuestionPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTGameQuestionPage.h; sourceTree = "<group>"; };
+		71C0AD781A5D47A3006ABD1C /* WTGameQuestionPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTGameQuestionPage.m; sourceTree = "<group>"; };
+		71C0AD7A1A5D48DA006ABD1C /* WTGameQuestionPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WTGameQuestionPage.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71C0AD3C1A5CF7BF006ABD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C0AD551A5CF7BF006ABD1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		710758381A5EAB1000F6B64C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				7107583C1A5EB32500F6B64C /* WTIndicatorView.h */,
+				7107583D1A5EB32500F6B64C /* WTIndicatorView.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		71C0AD361A5CF7BF006ABD1C = {
+			isa = PBXGroup;
+			children = (
+				71C0AD411A5CF7BF006ABD1C /* Which Title */,
+				71C0AD5B1A5CF7BF006ABD1C /* Which TitleTests */,
+				71C0AD401A5CF7BF006ABD1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71C0AD401A5CF7BF006ABD1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD3F1A5CF7BF006ABD1C /* Which Title.app */,
+				71C0AD581A5CF7BF006ABD1C /* Which TitleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71C0AD411A5CF7BF006ABD1C /* Which Title */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD761A5D475C006ABD1C /* pages */,
+				71C0AD721A5D37FD006ABD1C /* common */,
+				71C0AD681A5CF875006ABD1C /* Model */,
+				71C0AD461A5CF7BF006ABD1C /* AppDelegate.h */,
+				71C0AD471A5CF7BF006ABD1C /* AppDelegate.m */,
+				71C0AD491A5CF7BF006ABD1C /* WTHomeViewController.h */,
+				71C0AD4A1A5CF7BF006ABD1C /* WTHomeViewController.m */,
+				71C0AD4C1A5CF7BF006ABD1C /* Main.storyboard */,
+				71C0AD4F1A5CF7BF006ABD1C /* Images.xcassets */,
+				71C0AD511A5CF7BF006ABD1C /* LaunchScreen.xib */,
+				71C0AD421A5CF7BF006ABD1C /* Supporting Files */,
+			);
+			path = "Which Title";
+			sourceTree = "<group>";
+		};
+		71C0AD421A5CF7BF006ABD1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD431A5CF7BF006ABD1C /* Info.plist */,
+				71C0AD441A5CF7BF006ABD1C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C0AD5B1A5CF7BF006ABD1C /* Which TitleTests */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD5E1A5CF7BF006ABD1C /* Which_TitleTests.m */,
+				71C0AD5C1A5CF7BF006ABD1C /* Supporting Files */,
+			);
+			path = "Which TitleTests";
+			sourceTree = "<group>";
+		};
+		71C0AD5C1A5CF7BF006ABD1C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD5D1A5CF7BF006ABD1C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C0AD681A5CF875006ABD1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD691A5CF8AB006ABD1C /* WTNewsManager.h */,
+				71C0AD6A1A5CF8AB006ABD1C /* WTNewsManager.m */,
+				71C0AD6C1A5CF95D006ABD1C /* WTNewsItem.h */,
+				71C0AD6D1A5CF95D006ABD1C /* WTNewsItem.m */,
+				71C0AD6F1A5CFFD8006ABD1C /* WTNews.h */,
+				71C0AD701A5CFFD8006ABD1C /* WTNews.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		71C0AD721A5D37FD006ABD1C /* common */ = {
+			isa = PBXGroup;
+			children = (
+				71C0AD731A5D3817006ABD1C /* WTButton.h */,
+				71C0AD741A5D3817006ABD1C /* WTButton.m */,
+				7107581E1A5DFE7D00F6B64C /* WTUtil.h */,
+				7107581F1A5DFE7D00F6B64C /* WTUtil.m */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		71C0AD761A5D475C006ABD1C /* pages */ = {
+			isa = PBXGroup;
+			children = (
+				710758381A5EAB1000F6B64C /* view */,
+				71C0AD771A5D47A3006ABD1C /* WTGameQuestionPage.h */,
+				71C0AD781A5D47A3006ABD1C /* WTGameQuestionPage.m */,
+				71C0AD7A1A5D48DA006ABD1C /* WTGameQuestionPage.xib */,
+				710758211A5E049A00F6B64C /* WTGameViewController.h */,
+				710758221A5E049A00F6B64C /* WTGameViewController.m */,
+				710758231A5E049A00F6B64C /* WTGameViewController.xib */,
+				7107582B1A5E245D00F6B64C /* WTGameAnswerPage.h */,
+				7107582C1A5E245D00F6B64C /* WTGameAnswerPage.m */,
+				7107582E1A5E246E00F6B64C /* WTGameAnswerPage.xib */,
+				710758301A5E3BB700F6B64C /* WTWebViewController.h */,
+				710758311A5E3BB700F6B64C /* WTWebViewController.m */,
+				710758331A5E983900F6B64C /* WTGameOverViewController.h */,
+				710758341A5E983900F6B64C /* WTGameOverViewController.m */,
+				710758351A5E983900F6B64C /* WTGameOverViewController.xib */,
+			);
+			name = pages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71C0AD3E1A5CF7BF006ABD1C /* Which Title */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C0AD621A5CF7BF006ABD1C /* Build configuration list for PBXNativeTarget "Which Title" */;
+			buildPhases = (
+				71C0AD3B1A5CF7BF006ABD1C /* Sources */,
+				71C0AD3C1A5CF7BF006ABD1C /* Frameworks */,
+				71C0AD3D1A5CF7BF006ABD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Which Title";
+			productName = "Which Title";
+			productReference = 71C0AD3F1A5CF7BF006ABD1C /* Which Title.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71C0AD571A5CF7BF006ABD1C /* Which TitleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71C0AD651A5CF7BF006ABD1C /* Build configuration list for PBXNativeTarget "Which TitleTests" */;
+			buildPhases = (
+				71C0AD541A5CF7BF006ABD1C /* Sources */,
+				71C0AD551A5CF7BF006ABD1C /* Frameworks */,
+				71C0AD561A5CF7BF006ABD1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C0AD5A1A5CF7BF006ABD1C /* PBXTargetDependency */,
+			);
+			name = "Which TitleTests";
+			productName = "Which TitleTests";
+			productReference = 71C0AD581A5CF7BF006ABD1C /* Which TitleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71C0AD371A5CF7BF006ABD1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ruijia;
+				TargetAttributes = {
+					71C0AD3E1A5CF7BF006ABD1C = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					71C0AD571A5CF7BF006ABD1C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 71C0AD3E1A5CF7BF006ABD1C;
+					};
+				};
+			};
+			buildConfigurationList = 71C0AD3A1A5CF7BF006ABD1C /* Build configuration list for PBXProject "Which Title" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71C0AD361A5CF7BF006ABD1C;
+			productRefGroup = 71C0AD401A5CF7BF006ABD1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71C0AD3E1A5CF7BF006ABD1C /* Which Title */,
+				71C0AD571A5CF7BF006ABD1C /* Which TitleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71C0AD3D1A5CF7BF006ABD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				710758251A5E049A00F6B64C /* WTGameViewController.xib in Resources */,
+				71C0AD4E1A5CF7BF006ABD1C /* Main.storyboard in Resources */,
+				71C0AD7B1A5D48DA006ABD1C /* WTGameQuestionPage.xib in Resources */,
+				7107582F1A5E246E00F6B64C /* WTGameAnswerPage.xib in Resources */,
+				71C0AD531A5CF7BF006ABD1C /* LaunchScreen.xib in Resources */,
+				710758371A5E983900F6B64C /* WTGameOverViewController.xib in Resources */,
+				71C0AD501A5CF7BF006ABD1C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C0AD561A5CF7BF006ABD1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71C0AD3B1A5CF7BF006ABD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C0AD751A5D3817006ABD1C /* WTButton.m in Sources */,
+				71C0AD791A5D47A3006ABD1C /* WTGameQuestionPage.m in Sources */,
+				710758201A5DFE7D00F6B64C /* WTUtil.m in Sources */,
+				710758241A5E049A00F6B64C /* WTGameViewController.m in Sources */,
+				71C0AD6E1A5CF95D006ABD1C /* WTNewsItem.m in Sources */,
+				71C0AD4B1A5CF7BF006ABD1C /* WTHomeViewController.m in Sources */,
+				71C0AD6B1A5CF8AB006ABD1C /* WTNewsManager.m in Sources */,
+				71C0AD711A5CFFD8006ABD1C /* WTNews.m in Sources */,
+				710758321A5E3BB700F6B64C /* WTWebViewController.m in Sources */,
+				7107582D1A5E245D00F6B64C /* WTGameAnswerPage.m in Sources */,
+				71C0AD481A5CF7BF006ABD1C /* AppDelegate.m in Sources */,
+				7107583E1A5EB32500F6B64C /* WTIndicatorView.m in Sources */,
+				710758361A5E983900F6B64C /* WTGameOverViewController.m in Sources */,
+				71C0AD451A5CF7BF006ABD1C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71C0AD541A5CF7BF006ABD1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71C0AD5F1A5CF7BF006ABD1C /* Which_TitleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71C0AD5A1A5CF7BF006ABD1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71C0AD3E1A5CF7BF006ABD1C /* Which Title */;
+			targetProxy = 71C0AD591A5CF7BF006ABD1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71C0AD4C1A5CF7BF006ABD1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C0AD4D1A5CF7BF006ABD1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71C0AD511A5CF7BF006ABD1C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71C0AD521A5CF7BF006ABD1C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71C0AD601A5CF7BF006ABD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71C0AD611A5CF7BF006ABD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71C0AD631A5CF7BF006ABD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Which Title/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		71C0AD641A5CF7BF006ABD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Which Title/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		71C0AD661A5CF7BF006ABD1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Which TitleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Which Title.app/Which Title";
+			};
+			name = Debug;
+		};
+		71C0AD671A5CF7BF006ABD1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Which TitleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Which Title.app/Which Title";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71C0AD3A1A5CF7BF006ABD1C /* Build configuration list for PBXProject "Which Title" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C0AD601A5CF7BF006ABD1C /* Debug */,
+				71C0AD611A5CF7BF006ABD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C0AD621A5CF7BF006ABD1C /* Build configuration list for PBXNativeTarget "Which Title" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C0AD631A5CF7BF006ABD1C /* Debug */,
+				71C0AD641A5CF7BF006ABD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71C0AD651A5CF7BF006ABD1C /* Build configuration list for PBXNativeTarget "Which TitleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71C0AD661A5CF7BF006ABD1C /* Debug */,
+				71C0AD671A5CF7BF006ABD1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71C0AD371A5CF7BF006ABD1C /* Project object */;
+}
